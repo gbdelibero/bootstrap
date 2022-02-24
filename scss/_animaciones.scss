@@ -1,0 +1,55 @@
+/******************
+animaciones
+******************/
+
+/******************
+buttons
+******************/
+
+.btn-grad {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+/******************
+ links
+******************/
+
+ a {
+    position: relative;
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10pX;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    background-color: #ed213a;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover:after {
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+/******************
+IMPORT
+******************/
+
+@import "animaciones";
+
+
+.bg--color {
+    background-color: #252627;
+}
+
+.bg--color--section {
+    background-color: #8a9399;
+    color: #000000;
+    width: auto;
+}
+
+.bg--article {
+    background-color: #343537;
+    color: #8a9399;
+}
+
+.bg-color--nav {
+    background-color: black;
+}
+
+.icon-service {
+    --box-size: 70px;
+    width: var(--box-size);
+    height: var(--box-size);
+    padding: 10px;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+

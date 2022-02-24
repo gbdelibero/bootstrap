@@ -2,136 +2,161 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giantacles</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--seo-->
+  <meta name="keywords" content="web development, brand design, illustration, motion graphics, video editing" />
+
+  <meta name="description"
+    content="I'm a web developer and illustrative designer. I like creating clean, smart and effective stories." />
+
+  <title>Let's talk - Giantacles</title>
+  <!--fin seo-->
+
+  <link rel="stylesheet" href="css_bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 
-<body class="bg-secondary text-light">
-    <!--menu-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href=".//index.html">
-                <img src="img/logo/logo_website_2.png" alt="" width="50">
+<body class="bg--color text-light">
+
+  <!--menu-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-color--nav mb-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=".//index.html">
+        <img src="img/logo/logo_website_2.png" alt="" width="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href=".//index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=".//portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=".//about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=".//contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=".//blog.html">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--fin menu-->
+
+
+
+  <!--main-->
+
+  <main class="container my-5">
+
+    <h2 class="fw-bold mt-3">Please, tell me more...</h2>
+    <hr>
+    <p>
+      Please take a moment to fill out this form. If you are requesting a quote for custom design work please be as
+      detailed as possible about your project so I can give you an accurate quote.
+      or keep it simple and email email@giantacles.com
+      <br>
+      <br>
+      Thank you and I look forward to hearing from you.
+
+    </p>
+
+    <section class="row">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+          placeholder="this is another message"></textarea>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-dark mb-3">Send</button>
+      </div>
+    </section>
+  </main>
+
+  <!--fin main-->
+
+
+
+  <!--footer-->
+  <footer class="bg-color--nav text-light py-4">
+    <div class="container">
+      <nav class="row">
+
+        <!--logo-->
+        <a href="" class="col-12 col-md-6 col-lg-3 d-flex align-items-center">
+          <img src="img/logo/logo_website_3.png" alt="" class="mr-2">
+        </a>
+
+        <!--menu-->
+        <ul class="col-12 col-md-6 col-lg-3 list-unstyled">
+          <h4><strong>WHAT I DO?</strong></h4>
+          <li>UX design</li>
+          <li>Frontend developer</li>
+          <li>Branding & identity</li>
+          <li>Illustration</li>
+          <li>Motion graphics</li>
+          <li>Video editing</li>
+        </ul>
+
+        <!--menu-->
+        <ul class="col-12 col-md-6 col-lg-3 list-unstyled">
+          <h4><strong>MENU</strong></h4>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+
+        <!--social media-->
+        <ul class="col-12 col-md-6 col-lg-3">
+          <h4><strong>SOCIAL MEDIA</strong></h4>
+          <li class="d-flex justify-content-between">
+
+            <!--Facebook-->
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href=".//index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href=".//portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href=".//about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href=".//contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href=".//blog.html">Blog</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--fin menu-->
+
+            <!--Twitter-->
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+
+            <!--Instagram-->
+            <a href="# ">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+
+      </nav>
+    </div>
+  </footer>
+  <!--fin footer-->
 
 
-
-    <!--main-->
-
-    <main class="container my-5">
-
-        <h2 class="fw-bold mt-3">Please, tell me more...</h2>
-        <hr>
-
-        <section class="row">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                    placeholder="this is another message"></textarea>
-            </div>
-            <div class="col-auto">
-                <button type="submit" class="btn btn-dark mb-3">Send</button>
-            </div>
-        </section>
-    </main>
-
-    <!--fin main-->
-
-
-
-    <!--footer-->
-    <footer class="bg-dark text-light py-4">
-        <div class="container">
-            <nav class="row">
-                <!--logo-->
-                <a href=".//index.html" class="col-12 col-md-6 col-lg-3 d-flex align-items-center">
-                    <img src="img/logo/logo_website_3.png" alt="" class="mr-2">
-                </a>
-                <!--menu-->
-                <ul class="col-12 col-md-6 col-lg-3 list-unstyled">
-                    <h4><strong>SERVICIOS</strong></h4>
-                    <li>Servicio 1</li>
-                    <li>Servicio 2</li>
-                    <li>Servicio 3</li>
-                    <li>Servicio 4</li>
-                    <li>Servicio 5</li>
-                    <li>Servicio 6</li>
-                </ul>
-                <!--menu-->
-                <ul class="col-12 col-md-6 col-lg-3 list-unstyled">
-                    <h4><strong>MENU</strong></h4>
-                    <li><a href=".//index.html">Home</a></li>
-                    <li><a href=".//portfolio.html">Portfolio</a></li>
-                    <li><a href=".//about.html">About</a></li>
-                    <li><a href=".//contact.html">Contact</a></li>
-                    <li><a href=".//blog.html">Blog</a></li>
-                </ul>
-
-                <!--social media-->
-                <ul class="col-12 col-md-6 col-lg-3">
-                    <h4><strong>SOCIAL MEDIA</strong></h4>
-                    <li class="d-flex justify-content-between">
-                        <!--Facebook-->
-                        <a href="#">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <!--Twitter-->
-                        <a href="#">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <!--Instagram-->
-                        <a href="# ">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                </ul>
-
-            </nav>
-        </div>
-    </footer>
-
-
-    <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
